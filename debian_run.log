@@ -1,0 +1,102 @@
+Executing cmake .. -DCMAKE_CXX_COMPILER=x86_64-linux-gnu-g++ -DCMAKE_C_COMPILER=x86_64-linux-gnu-gcc && make install
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/x86_64-linux-gnu-gcc
+-- Check for working C compiler: /usr/bin/x86_64-linux-gnu-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/x86_64-linux-gnu-g++
+-- Check for working CXX compiler: /usr/bin/x86_64-linux-gnu-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/cmake_crosscompile/tmpbuild
+Scanning dependencies of target demonstration
+[ 50%] Building CXX object CMakeFiles/demonstration.dir/main.cpp.o
+[100%] Linking CXX executable demonstration
+[100%] Built target demonstration
+Install the project...
+-- Install configuration: ""
+Resolved deps for demonstration: /lib/aarch64-linux-gnu/ld-linux-aarch64.so.1;/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2;/lib/aarch64-linux-gnu/libc.so.6;/lib/aarch64-linux-gnu/libgcc_s.so.1;/lib/aarch64-linux-gnu/libm.so.6;/lib/aarch64-linux-gnu/libpthread.so.0;/lib/x86_64-linux-gnu/libstdc++.so.6
+Executing cmake .. -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ -DCMAKE_C_COMPILER=aarch64-linux-gnu-gcc && make install
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc
+-- Check for working C compiler: /usr/bin/aarch64-linux-gnu-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/cmake_crosscompile/tmpbuild
+Scanning dependencies of target demonstration
+[ 50%] Building CXX object CMakeFiles/demonstration.dir/main.cpp.o
+[100%] Linking CXX executable demonstration
+[100%] Built target demonstration
+Install the project...
+-- Install configuration: ""
+Resolved deps for demonstration: /lib/aarch64-linux-gnu/ld-linux-aarch64.so.1;/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2;/lib/aarch64-linux-gnu/libc.so.6;/lib/aarch64-linux-gnu/libgcc_s.so.1;/lib/aarch64-linux-gnu/libm.so.6;/lib/aarch64-linux-gnu/libpthread.so.0;/lib/x86_64-linux-gnu/libstdc++.so.6
+Executing cmake .. -DCMAKE_CXX_COMPILER=arm-linux-gnueabihf-g++ -DCMAKE_C_COMPILER=arm-linux-gnueabihf-gcc && make install
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/cmake_crosscompile/tmpbuild
+Scanning dependencies of target demonstration
+[ 50%] Building CXX object CMakeFiles/demonstration.dir/main.cpp.o
+[100%] Linking CXX executable demonstration
+[100%] Built target demonstration
+Install the project...
+-- Install configuration: ""
+Resolved deps for demonstration: /lib/aarch64-linux-gnu/ld-linux-aarch64.so.1;/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2;/lib/aarch64-linux-gnu/libc.so.6;/lib/aarch64-linux-gnu/libgcc_s.so.1;/lib/aarch64-linux-gnu/libm.so.6;/lib/aarch64-linux-gnu/libpthread.so.0;/lib/x86_64-linux-gnu/libstdc++.so.6
